@@ -1,0 +1,9 @@
+entrypoint = "src/index.ts"
+run = "bun src/index.ts"
+
+modules = ["bun"]
+
+hidden = [".config", "bun.lockb", "app.db"]
+
+[nix]
+channel = "stable-22_11"

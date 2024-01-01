@@ -1,3 +1,4 @@
+ 
 import {
   Links,
   LiveReload,
@@ -6,7 +7,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-
+import "./tailwind.css";
+ 
 export default function App() {
   return (
     <html lang="en">
@@ -25,3 +27,5 @@ export default function App() {
     </html>
   );
 }
+
+
